@@ -4,8 +4,10 @@ version = "0.1.0"
 description = "Desafíos de Procesamiento de Lenguaje Natural I - CEIA FIUBA"
 requires-python = ">=3.11"
 dependencies = [
+    "beautifulsoup4>=4.15.0",
     "gensim>=4.3",
     "ipykernel>=6.29",
+    "lxml>=6.1.3",
     "matplotlib>=3.8",
     "nbformat>=5.10",
     "numpy>=1.26",
@@ -13,6 +15,8 @@ dependencies = [
     "pandas>=2.2",
     "plotly>=5.20",
     "scikit-learn>=1.4",
+    "seaborn>=0.13.2",
+    "tensorflow>=2.21.0",
 ]
 
 [tool.uv]
